@@ -80,7 +80,7 @@ def find_apartment(blocks, requirements):
         help_list.append(max(i))
 
     min_dist = min(help_list)
-    return help_list.index(min_dist)
+    return help_list.index(min_dist)  # Returning the index from blocks list
 
 
 print(find_apartment(blocks, requirements))
